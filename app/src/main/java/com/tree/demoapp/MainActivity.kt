@@ -72,6 +72,7 @@ class MainActivity : ComponentActivity() {
             }
         }
 
+        askNotificationPermission()
     }
 
     private fun onRefresh() {

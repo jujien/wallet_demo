@@ -8,4 +8,8 @@ interface ApiService {
     suspend fun connect(
         @Body param: ConnectRequest
     ): User
+
+    suspend fun transactions(
+        @Body param: TransactionRequest
+    ): Transactions
 }
