@@ -146,7 +146,7 @@ class LoginActivity: ComponentActivity() {
             )
             .build()
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://958b-183-91-4-124.ap.ngrok.io/")
+            .baseUrl("https://a572-54-179-124-120.ap.ngrok.io/")
             .client(client)
             .addConverterFactory(
                 GsonConverterFactory

@@ -71,10 +71,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        this.askNotificationPermission()
-        intent.getStringExtra("test")?.let {
-            Log.d("Message Id", it)
-        }
+
     }
 
     private fun onRefresh() {
